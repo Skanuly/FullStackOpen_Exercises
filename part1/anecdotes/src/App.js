@@ -57,7 +57,7 @@ const Vote = (props) => {
   return(
     <><p>has {votes[props.vote]} votes</p>
     <button onClick={() => props.setter(increaseVote(props.id))}> 
-      vote {console.log(votes)}
+      vote
     </button></>
   )
 }
@@ -68,7 +68,7 @@ const Famous = (props) => {
     <p>
     {props.text[props.array.indexOf(highest)]}
     <br></br>
-    has {highest} votes {console.log(highest)}
+    has {highest} votes
     </p>
   )
 }
